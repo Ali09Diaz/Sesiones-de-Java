@@ -1,0 +1,21 @@
+package loops;
+
+public class WhileLoop {
+	public static void main (String[] args) {
+		/*
+		 * While. E, ciclo ehile ejecuta continuamnte un bloque de codigo hasta que se cumpla
+		 * While (expresion){
+		 *   //Bloque de codigo a ejecutar
+		 *   (contador - iterador)
+		 *   }
+		 * */
+		
+		int cuenta = 1;
+		while (cuenta < 11) {
+			cuenta ++;
+			System.out.println("La cuenta es de  " + cuenta);
+			cuenta ++;
+		}
+		
+	}
+}

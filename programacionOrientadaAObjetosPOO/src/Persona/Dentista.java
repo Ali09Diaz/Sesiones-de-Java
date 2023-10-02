@@ -1,0 +1,55 @@
+package Persona;
+
+public class Dentista extends Persona {
+	
+	
+	/*
+	 * Ya no creo valores como nombre, edad, apellido, etc, porque estsos valores los voy a heredar de la clase persona
+	 */
+	
+	//1 Atributos 
+	String especialidad;
+	String cedula;
+	String consultorioAsigando;
+	String experiencia;
+	String turno;
+	int salario;
+	
+	
+	
+	
+	//2 Constructor
+	public Dentista(String nombre, String apellido, byte edad, String telefono, String email, String especialidad,String cedula, String consultorioAsigando, String experiencia, String turno, int salario) {
+		super(nombre, apellido, edad, telefono, email);// Informacion de la clase Persona
+		//Informacion de la clase Dentista
+		this.especialidad = especialidad;
+		this.cedula = cedula;
+		this.consultorioAsigando = consultorioAsigando;
+		this.experiencia = experiencia;
+		this.turno = turno;
+		this.salario = salario;
+	}//constructor Dentista con informacion heredada
+	
+	//3 Metodos (Metodo para calcular salario basado enn la experiencia)
+	//Experiencia = basico, intermedio, avanzado 
+	
+	//Si el dentista esta en rango basico, gana 30,000. Si es intermedio, gana 40,000, si es avanzado gana 50,000
+	
+	void calcularSalario() {
+		//Logica deprogramacion
+		if (experiencia.equals ("basico")) {
+			salario = 30000;
+		}else if (experiencia.equals ("intermedio")) {
+			salario = 40000;
+		}else if (experiencia.equals ("avanzado")) {
+			salario = 50000;
+		}
+	}//Cierre CalcularSalario
+	
+	void imprimirInfoDentista () {
+		System.out.println("La especialidad: " + especialidad);
+		System.out.println("El salario es: "  + salario);
+	}//cierre imprimirInfoDentista
+	
+
+}//cierre de Dentista

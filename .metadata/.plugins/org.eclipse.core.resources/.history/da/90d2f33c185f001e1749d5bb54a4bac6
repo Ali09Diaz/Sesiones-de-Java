@@ -1,0 +1,19 @@
+package loops;
+
+public class DoWhileLoop {
+	public static void main (String [] args) {
+		/*
+		 * Do While. Evaluan su expresion en la parte inferior del ciclo, por lo tanto las declaraciones dentro del bloque "do" siempre se ejecutan por lo menos una vez
+		 * */
+		
+		//Cuenta del 1 al 10 
+		int cuenta = 1;
+		do {
+			System.out.println(cuenta);
+			cuenta ++;
+		} while ();
+		
+		
+		
+	}
+}

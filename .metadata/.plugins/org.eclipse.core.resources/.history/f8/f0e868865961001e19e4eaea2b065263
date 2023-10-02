@@ -1,0 +1,35 @@
+package Persona;
+
+public class Dentista extends Persona {
+	
+	
+	/*
+	 * Ya no creo valores como nombre, edad, apellido, etc, porque estsos valores los voy a heredar de la clase persona
+	 */
+	
+	//1 Atributos 
+	String especialidad;
+	String cedula;
+	String consultorioAsigando;
+	String experiencia;
+	String turno;
+	int salario;
+	
+	
+	
+	
+	//2 Constructor
+	public Dentista(String nombre, String apellido, byte edad, String telefono, String email, String especialidad,
+			String cedula, String consultorioAsigando, String experiencia, String turno, int salario) {
+		super(nombre, apellido, edad, telefono, email);
+		this.especialidad = especialidad;
+		this.cedula = cedula;
+		this.consultorioAsigando = consultorioAsigando;
+		this.experiencia = experiencia;
+		this.turno = turno;
+		this.salario = salario;
+	}//constructorDentista
+	
+	
+
+}

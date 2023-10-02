@@ -1,0 +1,63 @@
+package dataTypes;
+
+public class DatosPrimitivos {
+	public static void main(String[] args) {
+		//System.out.println("Hola");
+		/*
+		 * Datos primitivos. Datos fundamentales en Java que sirven 
+para gestionar los tipos
+		 * Existen 8 tipos de datos primitivos: byte, 
+short, int, long, float, double, boolean, char
+		 */
+		//BYTE Vmin y Vmax
+		byte minByte = Byte.MIN_VALUE;
+		byte maxByte = Byte.MAX_VALUE;
+		System.out.println("El valor minimo de byte es " + minByte);
+		System.out.println("El valor maximo de byte es " + maxByte);
+		
+		//SHORT Vmin y Vmax
+		short minShort = Short.MIN_VALUE;
+		short maxShort = Short.MAX_VALUE;
+		System.out.println("El valor minimo de short es " + minShort);
+		System.out.println("El valor maximo de short es " + maxShort);
+		
+		//int Vmin y Vmax
+		short minInt = int
+		short maxInt = 
+		System.out.println("El valor minimo de int es " + minInt);
+		System.out.println("El valor maximo de int es " + maxInt);
+		
+		//long Vmin y Vmax
+		short minLong = Long.MIN_VALUE;
+		short maxLong = Long.MAX_VALUE;
+		System.out.println("El valor minimo de Long es " + minLong);
+		System.out.println("El valor maximo de Long es " + maxLong);
+		
+		//float Vmin y Vmax
+		short minFloat = Float.MIN_VALUE
+		short maxFloat = Float.MAX_VALUE;
+		System.out.println("El valor minimo de Float es " + minFloat);
+		System.out.println("El valor maximo de Float es " + maxFloat);
+		
+		//double Vmin y Vmax
+		
+		//char. INT Vmin y Vmax
+		char minChar = Character.MIN_VALUE;
+		char maxChar = Character.MAX_VALUE;
+		System.out.println("El valor minimo de character es " + minChar);
+		System.out.println("El valor maximo de character es " + maxChar);
+		
+		//Long
+		long isbn = 9788499169019L;
+		System.out.println(isbn);
+		
+		//float
+		float salary = 15000f;
+		System.out.println(salary);
+		
+		//double
+		double ISR = 1239.45d;
+		System.out.println(ISR);
+		
+	}
+}

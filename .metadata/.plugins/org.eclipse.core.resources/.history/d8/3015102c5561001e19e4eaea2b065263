@@ -1,0 +1,18 @@
+package Persona;
+
+public class Test {
+
+	
+	//Metodo principal para instanciar mis clase
+	public static void main(String[] args) {
+		
+		Persona Felipe = new Persona("Felipe", "Maqueda", (byte)31, "5512345678", "felipe@mail.com");
+		
+		
+		System.out.println(Felipe);
+		
+		
+	}//Cierre de metodo main 
+	
+
+}//Cierre clase persona

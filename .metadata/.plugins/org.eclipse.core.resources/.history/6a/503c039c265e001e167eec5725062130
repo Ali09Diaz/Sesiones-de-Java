@@ -1,0 +1,24 @@
+package flujoControl;
+
+public class EstructurasDeControl { //Debe coincidir la clase con el nombre del documento
+	
+	public static void main(String[] args) { //Todo dentro del metodo main
+
+// Recordar que para que algo se ejecute, siempre debe ir dentro del metodo principal
+		
+		
+		//Primero genero una variable del tipo String donde almacen un dato
+		String citaProgramada= "28-09-23"; // Dejamos en Null y despues lo cambiamos a una fecha "28-09-23"
+		//La variable declarada, se inicia en null a proposito para tener un espacio de memoria ya asignado y solo reemplazarlo con un nuevo dato.
+		
+		if (citaProgramada != null) {
+			System.out.println("Ya hay una cita programada, una disculpa");//Porque la variable ya esta ocupada o llena
+		}else {
+			System.out.println("Puede registrar una cita");// Podemos registrar otra cita o una cita
+		}
+		
+		
+		
+	}//Metodo
+
+}// Clase

@@ -1,0 +1,28 @@
+package loops;
+
+public class BreakContinue {
+	public static void main(String[] args) {
+		/*
+		 * Sentencias utilizadas en loops:
+		 * -- break. Se utiliza para salir de un bucle en un punto especifico
+		 * -- continue. Interrumpe la iteracion de un bucle, si se produce una condicion especifica y continua con la siguiente
+		 * */
+		
+		//Super ozzito va a realizar una rifa en la cual el cliente numero 5 se ganara una cocacola de bolsita 
+		for (int cliente = 1; cliente <= 20; cliente ++) {
+			if(cliente == 5) {
+				System.out.println("Eres el cliente numero: " + cliente + " ¡Te has ganado una coca en bolsa!");
+				continue;//Con esto hacemos que no repita el 5, despues de nuestro mensaje para el ganador
+				//Con break finalizando el bucle antes de llegar a la condición final
+			}System.out.println("Eres el cliente numero: "  + cliente);
+		} 
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

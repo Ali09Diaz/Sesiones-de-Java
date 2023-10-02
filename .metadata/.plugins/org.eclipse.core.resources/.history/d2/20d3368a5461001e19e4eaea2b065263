@@ -1,0 +1,13 @@
+package Persona;
+
+public class Test {
+
+	
+	//Metodo principal para instanciar mis clase
+	public static void main(String[] args) {
+		
+		Persona Felipe = new Persona(String, String, byte, String, String);
+
+	}
+
+}
