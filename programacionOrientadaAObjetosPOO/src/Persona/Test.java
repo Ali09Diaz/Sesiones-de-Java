@@ -36,7 +36,7 @@ public class Test {
 		
 		
 		//Cambiar el false de seguroMedico a true
-		Masiosare.seguroGastosMedicos = true;
+		//Masiosare.seguroGastosMedicos = true;
 		System.out.println("***************");
 		System.out.println(Masiosare);
 		
