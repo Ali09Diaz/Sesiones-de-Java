@@ -1,7 +1,0 @@
-package flujoControl;
-
-public class EstructurasDeControl { //Debe coincidir la clase con el nombre del documento
-	
-	public static void main(String[] args) {
-
-}
