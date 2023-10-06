@@ -1,7 +1,11 @@
 package colecciones;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class Colecciones {
 
@@ -36,6 +40,52 @@ public class Colecciones {
 		String datoFelipe = listaDeContactos.get(0);
 		
 		System.out.println(datoFelipe);
+		
+		//Borrar un elemento de la lista 
+		listaDeContactos.remove(1);
+		System.out.println(listaDeContactos);
+		
+		
+		//Implementación de un conjunto (SET)
+		//Sintaxis
+		//Interface de donde implemento + tipo de dato que usaré + nombre que le doy al conjunto + instancia de la clase específica 
+		
+		Set<String> cartasDeJuego = new HashSet <> (); //Se importó Set y HashSet
+		
+		//Agregar elementos
+		cartasDeJuego.add("As de corazones");
+		cartasDeJuego.add("2 de picas");
+		cartasDeJuego.add("Reina de treboles");
+		
+		//No puedo saber posiciones, solo saber si o contiene
+		if(cartasDeJuego.contains("Reina de Treboles")) {
+			System.out.println("La reina de treboles si estan en el conjunto");
+		}else {
+			System.out.println("No encuentro el elemento solicitado");
+		}
+		
+		
+		
+		
+		
+		//Implementacion de un mapa (hashMap)
+		
+		Map <String, String> libretaDirecciones = new HashMap <> ();
+		
+		//Agregar elementos a mi libreta de direcciones donde mi K=nombre y mi V= direccion
+		libretaDirecciones.put("Felipe", "Tlanepantla");
+		libretaDirecciones.put("Dr. Simi", "CDMX");
+		libretaDirecciones.put("Konoha", "Naruto");
+		
+		//Metodo para sacar informacion de la libreta, creando una nueva variable
+		String direccionDeFelipe = libretaDirecciones.get("Felipe");
+		String direccionDeNaruto = libretaDirecciones.get("Naruto");
+		
+		//Impresion
+		System.out.println(direccionDeFelipe);
+		System.out.println(direccionDeNaruto);
+		
+		
 		
 
 
@@ -75,6 +125,29 @@ public class Colecciones {
  *  -	Coste elevado al momento de insertar o eliminar elementos. Si agrego un elemento, tengo que recorrer todos los demas elementos. 
  *  
  *  
+ *  
+ *  
+ *  Set (conjunto)
+ *  
+ *  Estructura de datos que almacena datos unicos sin orden especifico. Las principales caracteríasticas de un set son:
+ *  
+ *  	- No hay elementos duplicados,ya que los conjuntos no pueden contener. Si se intenta agregar un elemento ya existente, la operación se ignora.
+ *  	- No hay orden específico, los elementos se alamacenan sin orden específico
+ *  	- La busqueda de mas sencilla, ya que al no tener elementos	duplicados se usa una función hash para encontratar el elemento deseado.
+ *  
+ *  
+ *  
+ *  Map (mapas)
+ *  
+ *  Un mapa es una estructura de datos que almacena pares de clave-valor
+ *  
+ *  	- Almacenamiento con pares K-V
+ *  	- Sin orden especifico(similar a un Set)
+ *  	- Busqueda rapida, la busqueda se hace por medio de un valor (key), y usa una duncion interna hash para buscar elementos.
+ *  
+ *  
+ *  
+ *  Agenda telefonica (agregar, modificar, eliminar)
  *  
  *  
  * 
