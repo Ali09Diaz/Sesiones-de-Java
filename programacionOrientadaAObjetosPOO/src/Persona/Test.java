@@ -71,7 +71,7 @@ public class Test {
 		//Si genero la instancia y la agrego directamente al arrayList, para sacar el dato tendre que utilizar un forEach o alguin ciclo para imprimir dato por dato  
 		
 		
-		//Implementacion de ista de Dentista con un HashSet
+		//Implementacion de lista de Dentista con un HashSet
 		Set<Dentista> conjuntoDentistas = new HashSet <>();
 		
 		//Agregar Dentista a mi Conjunto 
